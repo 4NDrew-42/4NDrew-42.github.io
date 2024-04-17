@@ -1,0 +1,69 @@
+body {
+	background-color: #121212; /* Dark background for the entire page */
+	color: #e1e1e1; /* Light text color for contrast */
+}
+
+a {
+	color: #0d6efd; /* Bootstrap primary blue for links */
+	text-decoration: none; /* No underlines on links */
+}
+
+a:hover {
+	color: #0a58ca; /* Darker blue when hovering over links */
+	text-decoration: underline; /* Underline on hover for better visibility */
+}
+
+.card {
+	background-color: #333333; /* Slightly lighter dark shade for cards */
+	border: none; /* Remove default card border */
+}
+
+.card-title {
+	color: #ffffff; /* White color for card titles for better readability */
+}
+
+.card-text,
+.card ul {
+	color: #cccccc; /* Light grey text for card content */
+}
+
+.img-fluid {
+	border-radius: 8px; /* Rounded corners for images */
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Responsive margins and padding for better spacing on all devices */
+.container {
+	padding: 20px;
+}
+
+.card-body {
+	padding: 20px;
+}
+
+/* Customizing list styles inside cards */
+.card ul {
+	list-style-type: none; /* Remove default list style */
+	padding: 0;
+}
+
+.card ul li {
+	padding: 5px 0; /* Vertical padding for list items */
+}
+
+/* Ensuring the contact link is clearly visible */
+a.text-light-blue {
+	color: #7ed2f6;
+}
+
+a.text-light-blue:hover {
+	color: #2ec4ff;
+}
+
+a.text-light {
+	color: #f8f9fa;
+}
+
+a.text-light:hover {
+	color: #adb5bd;
+}
